@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.header{
+    width: 100%;
+    height: 65px;
+    background-color: #0078A7;
+}
+
+#logo_header{
+    margin-top: 4px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 64px;
+    left: 0;
+    background-color: #0078A7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    font-family: Maven Pro;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+        
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
