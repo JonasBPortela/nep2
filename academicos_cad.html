@@ -13,9 +13,8 @@
 <body>
     <div class="header">
         <div id="mySidenav" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">
-                <div> <img src="assets/icons/Vector.png" alt="tem não" style="margin-right: 5px;"> PROFESSORES/SUPERVISORES</div>
+                <div> <img src="assets/icons/Vector.png" alt="tem não" style="margin-right: 5px;"> PROFESSORES / SUPERVISORES</div>
             </a>
             <a href="#">
                 <div> <img src="assets/icons/Vector1.png" alt="tem não" style="padding-right: 10px; padding-left: 5px;">ACADEMICOS</div>
@@ -24,8 +23,24 @@
                 <div> <img src="assets/icons/Vector2.png" alt="tem não" style="margin-right: 5px;">REGISTRAR PLANO DE ESTAGIO</div>
             </a>
         </div>
-            <span style=" font-size:35px;cursor:pointer; position: relative; top: -33%;margin-left: 31px; margin-right: 145px;" onclick="openNav()">&#9776;</span>
+            <span style=" font-size:35px;cursor:pointer; position: relative; top: -33%;margin-left: 31px; margin-right: 8%;" onclick="openNav()">&#9776;</span>
         <img src="./assets/icons/logo_nep_dash.png" alt="tem nao" id="logo_header">
+    </div>
+    <div id="conteudo">
+        <h4 id="academico_titulo">ACADÊMICO</h4>
+        <button class="button" id="botaoenviar">SALVAR</button>
+        <div id="titulo_linha"></div>
+        
+        <form id="formulario">
+            <label for="nome"></label>
+            <input type="text" placeholder="NOME" id="formulario_nome" name="User" class="formulario_fonte">
+
+            <label for="data"></label>
+            <input type="date" name="data" style="padding-bottom: 7px;" value="2001-09-11" id="formulario_data" class="formulario_fonte">
+
+            <label for="sexo"></label>
+            <input type="radio" name="sexo" id="formulario_sexo" class="formulario_fonte">
+        </form>
     </div>
 </body>
 </html>

@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Maven Pro', sans-serif;
 }
 
 html, body{
@@ -22,42 +21,127 @@ html, body{
 }
 
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 64px;
-    left: 0;
-    background-color: #0078A7;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-  }
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  margin-top: 64px;
+  left: 0;
+  background-color: #0A0D0DCC;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
   
-  .sidenav a {
-    font-family: Maven Pro;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 19px;
-    letter-spacing: 0px;
-    text-align: center;
-    color: #FFFFFF;
-        
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    display: inline-block;
-    transition: 0.3s;
-  }
-  
-  .sidenav a:hover {
-    color: #f1f1f1;
-  }
-  
-  .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+.sidenav a {
+  font-family: Maven Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-block;
+      
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+#conteudo{
+  width: 100%;
+  float: right;
+  transition: 0.5s;
+}
+
+#academico_titulo{
+  position: fixed;
+  font-family: Roboto;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+#titulo_linha{
+  position: fixed;
+  margin-left: 2%;
+  margin-top: clamp(65px,4%,120px);
+  width: 35%;
+  border-bottom: 1px solid black;
+}
+
+.button {
+  padding: 1px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 8px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.18);
+}
+
+#botaoenviar{
+  position: fixed;
+  margin: 2% 0 0 60%;
+  padding: 10px 40px 10px 40px;
+  background-color: #2F3783;
+  color: #FFFFFF;
+  font-family: Maven Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+  padding-bottom: 15px;
+}
+
+#formulario{
+  position: fixed;
+  background: transparent;
+  margin: clamp(100px,8%,230px) 0px 0px 2%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#formulario_nome{
+  position: fixed;
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_data{
+  margin-top: -10px;
+  margin-left: 39%;
+  position: fixed;
+  width: clamp(250px,25%,700px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formulario_fonte{
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  text-align: left;
+}
+
+#formulario_sexo{
+  margin-top: 20%;
 }
