@@ -56,7 +56,7 @@ html, body{
 #conteudo{
   width: 100%;
   float: right;
-  transition: 0.5s;
+  transition: 0.5s;;
 }
 
 #academico_titulo{
@@ -109,7 +109,30 @@ html, body{
 ::placeholder {
   color: black;
   opacity: 1;
-  padding-bottom: 15px;
+  padding-bottom: 0px;
+}
+
+input[type=text],[type=email]{
+  width: 100%;
+  padding: 3px 0px 6px 6px;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0%;
+  height: 27px;
+  width: 25%;
+  padding: 3px 0px 6px 6px;
+}
+
+
+input[type=radio] {
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  border: solid 1px black;
 }
 
 #formulario{
@@ -117,7 +140,6 @@ html, body{
   background: transparent;
   margin: clamp(100px,8%,230px) 0px 0px 2%;
   box-sizing: border-box;
-  display: flex;
 }
 
 #formulario_nome{
@@ -127,7 +149,6 @@ html, body{
 }
 
 #formulario_data{
-  margin-top: -10px;
   margin-left: 39%;
   position: fixed;
   width: clamp(250px,25%,700px);
@@ -143,5 +164,122 @@ html, body{
 }
 
 #formulario_sexo{
-  margin-top: 20%;
+  position: fixed;
+  margin-left: 20px;
+}
+
+.formulario_p{
+  margin-top: 90px;
+}
+
+.formulario_p0{
+  margin-top: 70px;
+}
+
+#formulario_sexo0{
+  position: fixed;
+  margin-left: 48px;
+}
+
+#formulario_sexo1{
+  position: fixed;
+  margin-left: 130px;
+}
+
+#formulario_sexo2{
+  position: fixed;
+  margin-left: 100px;
+}
+
+#formulario_email{
+  position: fixed;
+  width: 25%;
+  margin-left: 36.75%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_select{
+  position: fixed;
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_cpf{
+  margin-left: 39%;
+  position: fixed;
+  width: clamp(250px,25%,700px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formulario_p1{
+  position: fixed;
+  margin-top: 100px;
+}
+
+#formulario_rg{
+  position: fixed;
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_celular{
+  margin-left: 39%;
+  position: fixed;
+  width: clamp(250px,25%,700px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formulario_p2{
+  position: fixed;
+  margin-top: 200px;
+}
+
+#formulario_numero{
+  position: fixed;
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_bairro{
+  margin-left: 39%;
+  position: fixed;
+  width: clamp(250px,25%,700px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+.formulario_p3{
+  position: fixed;
+  margin-top: 300px;
+}
+
+#formulario_cidade{
+  position: fixed;
+  width: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#formulario_select1{
+  margin-left: 39%;
+  position: fixed;
+  width: clamp(250px,25%,700px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+}
+
+#titulo{
+    position: fixed;
+    font-family: Roboto;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    margin-top: 400px;
+}
+
+#titulo_linha1{
+  position: fixed;
+  margin-top: 440px;
+  width: 64.5%;
+  border-bottom: 1px solid black;
 }

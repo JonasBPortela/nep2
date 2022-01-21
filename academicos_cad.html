@@ -32,14 +32,85 @@
         <div id="titulo_linha"></div>
         
         <form id="formulario">
-            <label for="nome"></label>
-            <input type="text" placeholder="NOME" id="formulario_nome" name="User" class="formulario_fonte">
+            <label for="formulario_nome"></label>
+            <input type="text" placeholder="NOME" id="formulario_nome" name="nome" class="formulario_fonte">
 
-            <label for="data"></label>
-            <input type="date" name="data" style="padding-bottom: 7px;" value="2001-09-11" id="formulario_data" class="formulario_fonte">
+            <label for="formulario_data"></label>
+            <input type="date" name="data" style="padding-bottom: 7px;" value="2012-12-12" id="formulario_data" class="formulario_fonte">
 
-            <label for="sexo"></label>
-            <input type="radio" name="sexo" id="formulario_sexo" class="formulario_fonte">
+            <div class="formulario_p formulario_fonte">SEXO:
+                <input type="radio" name="sexo" id="formulario_sexo" value="Feminino">
+                <label for="formulario_sexo" id="formulario_sexo0">Fem</label>
+                <input type="radio" name="sexo" id="formulario_sexo2" value="Masculino">
+                <label for="formulario_sexo" id="formulario_sexo1">Masc</label>
+                <label for="formulario_email"></label>
+                <input type="email" placeholder="E-MAIL" id="formulario_email" name="email" class="formulario_fonte">
+            </div>
+
+        <div class="formulario_p0">
+            <select name="select" class="formulario_fonte" id="formulario_select">
+                <option value="valor1">ESTADO CIVIL</option>
+                <option value="valor2">SOLTEIRO</option>
+                <option value="valor3">CASADO</option>
+                <option value="valor3">VIUVO</option>
+            </select>
+            <label for="formulario_cpf"></label>
+            <input type="text" placeholder="CPF" id="formulario_cpf" name="cpf" class="formulario_fonte">
+        </div>
+
+        <div class="formulario_p1">
+            <label for="formulario_rg"></label>
+            <input type="text" placeholder="RG" id="formulario_rg" name="registro" class="formulario_fonte">
+            <label for="formulario_celular"></label>
+            <input type="text" placeholder="FONE CELULAR" id="formulario_celular" name="celular" class="formulario_fonte">
+        </div>
+            
+        <div class="formulario_p2">
+            <label for="formulario_numero"></label>
+            <input type="text" placeholder="NÚMERO" id="formulario_numero" name="numero" class="formulario_fonte">
+            <label for="formulario_bairro"></label>
+            <input type="text" placeholder="BAIRRO" id="formulario_bairro" name="bairro" class="formulario_fonte">
+        </div>
+
+        <div class="formulario_p3">
+            <label for="formulario_cidade"></label>
+            <input type="text" placeholder="CIDADE" id="formulario_cidade" name="cidade" class="formulario_fonte">
+            <select id="formulario_select1" class="formulario_fonte" name="estado">
+                <option value="">ESTADO</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="EX">Estrangeiro</option>
+            </select>
+        </div>
+
+        <h4 id="titulo">Dados Acadêmicos</h4>
+        <div id="titulo_linha1"></div>
+            
         </form>
     </div>
 </body>
